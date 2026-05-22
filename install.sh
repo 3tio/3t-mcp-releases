@@ -48,7 +48,14 @@ else
   mkdir -p "$INSTALL_DIR"
 fi
 
-TMP_DIR=$(mktemp -d)
+if TMP_DIR=$(mktemp -d -t stt-cli 2>/dev/null); then
+  :
+elif TMP_DIR=$(mktemp -d "${TMPDIR:-/tmp}/stt-cli.XXXXXX" 2>/dev/null); then
+  :
+else
+  echo "error: could not create temporary directory" >&2
+  exit 1
+fi
 trap 'rm -rf "$TMP_DIR"' EXIT
 
 ARCHIVE="${TMP_DIR}/${ARCHIVE_NAME}"

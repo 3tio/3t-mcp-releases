@@ -59,9 +59,14 @@ curl -sSfL "$URL" -o "$ARCHIVE"
 curl -sSfL "$CHECKSUMS_URL" -o "$CHECKSUMS"
 
 echo "Verifying checksum..."
-EXPECTED=$(grep "${ARCHIVE_NAME}" "$CHECKSUMS" | awk '{print $1}')
+EXPECTED=$(awk -v f="${ARCHIVE_NAME}" '$2 == f {print $1}' "$CHECKSUMS")
 if [ -z "$EXPECTED" ]; then
   echo "error: ${ARCHIVE_NAME} not found in checksums.txt" >&2
+  exit 1
+fi
+MATCH_COUNT=$(awk -v f="${ARCHIVE_NAME}" '$2 == f {n++} END {print n+0}' "$CHECKSUMS")
+if [ "$MATCH_COUNT" -gt 1 ]; then
+  echo "error: multiple entries for ${ARCHIVE_NAME} in checksums.txt" >&2
   exit 1
 fi
 

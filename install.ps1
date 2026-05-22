@@ -10,13 +10,39 @@ $Version = $Release.tag_name
 $InstallDir = "$env:LOCALAPPDATA\Programs\$Binary"
 New-Item -ItemType Directory -Force -Path $InstallDir | Out-Null
 
-$Url     = "https://github.com/$Repo/releases/download/$Version/$Binary-$Target.zip"
-$ZipPath = "$env:TEMP\$Binary-$Version.zip"
+$ArchiveName   = "$Binary-$Target.zip"
+$Url           = "https://github.com/$Repo/releases/download/$Version/$ArchiveName"
+$ChecksumsUrl  = "https://github.com/$Repo/releases/download/$Version/checksums.txt"
+$TmpDir        = New-Item -ItemType Directory -Path "$env:TEMP\$Binary-install-$([System.Guid]::NewGuid())" -Force
+$ZipPath       = "$TmpDir\$ArchiveName"
+$ChecksumsPath = "$TmpDir\checksums.txt"
 
-Write-Host "Downloading $Binary $Version..."
-Invoke-WebRequest -Uri $Url -OutFile $ZipPath
-Expand-Archive -Path $ZipPath -DestinationPath $InstallDir -Force
-Remove-Item $ZipPath
+try {
+    Write-Host "Downloading $Binary $Version..."
+    Invoke-WebRequest -Uri $Url -OutFile $ZipPath
+    Invoke-WebRequest -Uri $ChecksumsUrl -OutFile $ChecksumsPath
+
+    Write-Host "Verifying checksum..."
+    $ExpectedLine = Get-Content $ChecksumsPath | Where-Object {
+        $cols = $_ -split '\s+'
+        $cols.Count -ge 2 -and $cols[1] -eq $ArchiveName
+    }
+    if (-not $ExpectedLine) {
+        throw "$ArchiveName not found in checksums.txt"
+    }
+    if (@($ExpectedLine).Count -gt 1) {
+        throw "multiple entries for $ArchiveName in checksums.txt"
+    }
+    $Expected = ($ExpectedLine -split '\s+')[0].ToLower()
+    $Actual   = (Get-FileHash -Path $ZipPath -Algorithm SHA256).Hash.ToLower()
+    if ($Actual -ne $Expected) {
+        throw "checksum mismatch for ${ArchiveName}`n  expected: $Expected`n  actual:   $Actual"
+    }
+
+    Expand-Archive -Path $ZipPath -DestinationPath $InstallDir -Force
+} finally {
+    Remove-Item $TmpDir -Recurse -Force -ErrorAction SilentlyContinue
+}
 
 $UserPath = [Environment]::GetEnvironmentVariable("Path", "User")
 if ($UserPath -notlike "*$InstallDir*") {

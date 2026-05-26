@@ -43,6 +43,8 @@ irm https://raw.githubusercontent.com/3tio/3t-mcp-releases/main/install.ps1 | ie
 
 ### Verify
 
+> **Windows:** open a new terminal window before running the command below — the installer updates your PATH but the current session won't see it yet.
+
 ```sh
 stt-cli --version
 ```

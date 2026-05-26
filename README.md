@@ -1,8 +1,8 @@
 # Studio 3T MCP
 
-Studio 3T MCP gives AI assistants direct, read-safe access to your MongoDB databases. Install one binary, point it at a connection, add four lines to your AI client's config, and your assistant can list databases, run queries, inspect indexes, analyze schemas, and scan collections for PII — without you writing a line of code.
+Studio 3T MCP is a single binary that works two ways: as an MCP server giving AI assistants direct, read-safe access to your MongoDB and MongoDB-compatible databases, and as a CLI you can integrate into scripts and automation workflows. Point it at a connection and you can list databases, run queries, inspect indexes, analyze schemas, and scan for PII — without writing application code.
 
-The server runs locally on your machine as a standard [MCP](https://modelcontextprotocol.io) stdio process. Your data never passes through an intermediate service.
+The MCP server runs locally on your machine as a standard [MCP](https://modelcontextprotocol.io) stdio process. Your data never passes through an intermediate service.
 
 ---
 

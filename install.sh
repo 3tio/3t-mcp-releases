@@ -28,9 +28,10 @@ case "$OS" in
     ;;
 esac
 
-LATEST=$(curl -sSf "https://api.github.com/repos/${REPO}/releases/latest" \
-  | grep '"tag_name"' \
-  | sed 's/.*"tag_name": *"\([^"]*\)".*/\1/')
+LATEST=$(curl -sSfI "https://github.com/${REPO}/releases/latest" \
+  | grep -i "^location:" \
+  | sed 's|.*/tag/||' \
+  | tr -d '[:space:]')
 
 if [ -z "$LATEST" ]; then
   echo "error: could not determine latest release" >&2

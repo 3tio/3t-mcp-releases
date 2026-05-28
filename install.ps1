@@ -4,8 +4,11 @@ $Repo   = "3tio/3t-mcp-releases"
 $Binary = "stt-cli"
 $Target = "x86_64-pc-windows-msvc"
 
-$Release = Invoke-RestMethod "https://api.github.com/repos/$Repo/releases/latest"
-$Version = $Release.tag_name
+$Req = [System.Net.HttpWebRequest]::Create("https://github.com/$Repo/releases/latest")
+$Req.AllowAutoRedirect = $false
+$Resp = $Req.GetResponse()
+$Version = ($Resp.GetResponseHeader("Location") -replace '.*/tag/', '').Trim()
+$Resp.Close()
 
 $InstallDir = "$env:LOCALAPPDATA\Programs\$Binary"
 New-Item -ItemType Directory -Force -Path $InstallDir | Out-Null

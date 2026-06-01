@@ -14,6 +14,7 @@ The MCP server runs locally on your machine as a standard [MCP](https://modelcon
 4. [Configure your AI client](#4-configure-your-ai-client)
 5. [Tool reference](#5-tool-reference)
 6. [Server flags](#6-server-flags)
+7. [Guides](#guides)
 
 ## Guides
 

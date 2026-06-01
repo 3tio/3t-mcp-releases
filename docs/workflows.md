@@ -142,7 +142,9 @@ stt-cli aggregate execute --connection local --database demo \
     --pipeline '[{"$group":{"_id":"$cuisine","count":{"$sum":1}}},{"$sort":{"count":-1}},{"$limit":5}]'
 ```
 
-```json
+Excerpt of the `documents` array in the response:
+
+```text
 "documents": [
   { "_id": "American", "count": 6182 },
   { "_id": "Chinese", "count": 2417 },

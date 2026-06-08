@@ -47,15 +47,15 @@ This Agreement is intended for business and professional users only. The Custome
 
 **2.2** The Customer:
 
-**2.2.1** shall only use and copy the Software for use on any OSE owned, leased and/or controlled by the Customer for the Customer's internal business purposes;
+* **2.2.1** shall only use and copy the Software for use on any OSE owned, leased and/or controlled by the Customer for the Customer's internal business purposes;
 
-**2.2.2** shall not make the Software available for use by any third party (except the Authorised Users) in any manner whatsoever;
+* **2.2.2** shall not make the Software available for use by any third party (except the Authorised Users) in any manner whatsoever;
 
-**2.2.3** may make one copy of the Software in machine-readable form for normal operational security and back-up purposes; and
+* **2.2.3** may make one copy of the Software in machine-readable form for normal operational security and back-up purposes; and
 
-**2.2.4** shall comply with the restrictions set out in clause 4 (Restrictions on Use); and
+* **2.2.4** shall comply with the restrictions set out in clause 4 (Restrictions on Use); and
 
-**2.2.5** shall ensure that the Authorised Users comply with these licence terms.
+* **2.2.5** shall ensure that the Authorised Users comply with these licence terms. 
 
 **2.3** The Licence is personal to the Customer. The Customer shall not assign, transfer or sublicense this Agreement or the Licence, or any rights arising under them, to any third party.
 
@@ -193,11 +193,11 @@ This Agreement is intended for business and professional users only. The Custome
 
 **13.1** The Supplier:
 
-**13.1.1** does not warrant that the Customer's use of the Software will be uninterrupted or error-free, or that the Software, Documentation and/or information obtained through the Software will meet the Customer's requirements; and
+* **13.1.1** does not warrant that the Customer's use of the Software will be uninterrupted or error-free, or that the Software, Documentation and/or information obtained through the Software will meet the Customer's requirements; and
 
-**13.1.2** is not responsible for any delays, failures, or any other loss or damage resulting from the transfer of data over communications networks and facilities, including the internet, and the Customer acknowledges that the Software may be subject to limitations, delays and other problems inherent in the use of such communications facilities.
+* **13.1.2** is not responsible for any delays, failures, or any other loss or damage resulting from the transfer of data over communications networks and facilities, including the internet, and the Customer acknowledges that the Software may be subject to limitations, delays and other problems inherent in the use of such communications facilities.
 
-**13.2 THE CUSTOMER ACKNOWLEDGES THAT THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE". EXCEPT AS EXPRESSLY SET OUT IN THIS AGREEMENT, NO REPRESENTATION, GUARANTEE OR WARRANTY OF ANY KIND AS TO ITS FUNCTIONALITY, QUALITY, PERFORMANCE, SUITABILITY OR FITNESS FOR PURPOSE IS GIVEN AND ALL CONDITIONS, WARRANTIES, TERMS AND UNDERTAKINGS, EXPRESS OR IMPLIED, WHETHER BY STATUTE, COMMON LAW, TRADE PRACTICE, CUSTOM, COURSE OF DEALING OR OTHERWISE (INCLUDING WITHOUT LIMITATION AS TO QUALITY, PERFORMANCE OR FITNESS OR SUITABILITY FOR PURPOSE) IN RESPECT OF THE SOFTWARE AND THE DOCUMENTATION ARE HEREBY EXCLUDED TO THE FULLEST EXTENT PERMISSIBLE BY LAW.**
+* **13.2 THE CUSTOMER ACKNOWLEDGES THAT THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE". EXCEPT AS EXPRESSLY SET OUT IN THIS AGREEMENT, NO REPRESENTATION, GUARANTEE OR WARRANTY OF ANY KIND AS TO ITS FUNCTIONALITY, QUALITY, PERFORMANCE, SUITABILITY OR FITNESS FOR PURPOSE IS GIVEN AND ALL CONDITIONS, WARRANTIES, TERMS AND UNDERTAKINGS, EXPRESS OR IMPLIED, WHETHER BY STATUTE, COMMON LAW, TRADE PRACTICE, CUSTOM, COURSE OF DEALING OR OTHERWISE (INCLUDING WITHOUT LIMITATION AS TO QUALITY, PERFORMANCE OR FITNESS OR SUITABILITY FOR PURPOSE) IN RESPECT OF THE SOFTWARE AND THE DOCUMENTATION ARE HEREBY EXCLUDED TO THE FULLEST EXTENT PERMISSIBLE BY LAW.**
 
 ---
 
@@ -224,13 +224,13 @@ This Agreement is intended for business and professional users only. The Custome
 
 **15.4** Upon termination or expiry of this Agreement for any reason:
 
-**15.5.1** the Licence and all rights granted under this Agreement shall immediately terminate;
+* **15.4.1** the Licence and all rights granted under this Agreement shall immediately terminate;
 
-**15.5.2** the Customer shall promptly uninstall the Software and destroy all copies of the Software and the Documentation in its possession or control, in any form including partial copies; and
+* **15.4.2** the Customer shall promptly uninstall the Software and destroy all copies of the Software and the Documentation in its possession or control, in any form including partial copies; and
 
-**15.5.3** any provision of this Agreement which is expressly or by implication intended to survive termination of this Agreement shall survive and continue in full force and effect.
+* **15.4.3** any provision of this Agreement which is expressly or by implication intended to survive termination of this Agreement shall survive and continue in full force and effect.
 
-**15.6** Any termination of this Agreement shall be without prejudice to any other rights or remedies either party may be entitled to under this Agreement or at law.
+**15.5** Any termination of this Agreement shall be without prejudice to any other rights or remedies either party may be entitled to under this Agreement or at law.
 
 ---
 
@@ -238,11 +238,11 @@ This Agreement is intended for business and professional users only. The Custome
 
 **16.1** Neither party shall at any time after the date of this Agreement:
 
-**16.1.1** divulge or communicate to any person, company, business entity or other organisation;
+* **16.1.1** divulge or communicate to any person, company, business entity or other organisation;
 
-**16.1.2** use for any purposes other than the purposes of this Agreement; or
+* **16.1.2** use for any purposes other than the purposes of this Agreement; or
 
-**16.1.3** through any failure to exercise due care and diligence, cause any unauthorised disclosure of,
+* **16.1.3** through any failure to exercise due care and diligence, cause any unauthorised disclosure of,
 
 any trade secrets or Confidential Information belonging to the other party, provided that these restrictions shall cease to apply to the extent any information becomes available to the public generally otherwise than through a breach of a duty of confidentiality owed to the other party. Neither party shall be restricted from disclosing Confidential Information pursuant to a judicial or other lawful government order, but only to the extent required by such order and subject to the party so required giving the other party as much notice as may be reasonably practicable.
 

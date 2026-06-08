@@ -6,7 +6,7 @@
 
 Any use of the Software (as defined below) is subject to the terms of this licence agreement ("Agreement"). Please read the full Agreement carefully.
 
-This Agreement is intended for business and professional users only. The Customer confirms that it is not a Consumer (as defined below) and accepts and agrees to be legally bound by all terms and conditions of this Agreement by downloading and/or installing and/or using the Software. If the Customer is a Consumer, or if these terms are not accepted, the Customer must not download, install or use the Software.
+This Agreement is intended for business and professional users only. The Customer confirms that it is not a Consumer (as defined below) and accepts and agrees to be legally bound by all terms and conditions of this Agreement by downloading and/or installing and/or using (or permitting the Authorised User to download, install and/or use) the Software. If the Customer is a Consumer, or if these terms are not accepted, the Customer must not download, install or use the Software.
 
 **IMPORTANT NOTICE:** This Agreement shall prevail over the Customer's standard terms and conditions (if any) attached to, enclosed with, or referred to in any confirmation of order or other communication between the parties.
 
@@ -21,9 +21,9 @@ This Agreement is intended for business and professional users only. The Custome
 * **"Account"** means a Studio 3T user account held by an Authorised User at [https://studio3t.com](https://studio3t.com), required to authenticate and operate the Software;  
 * **"Agreement Start Date"** means the date upon which the Software is downloaded or installed by the Customer (whichever is the earlier);  
 * **"Authorised User"** means those employees, agents and independent contractors of the Customer who are authorised by the Customer to use the Software and the Documentation;  
-* **"Confidential Information"** means the Software, the source code of the Software, together with any information which is either designated by the party disclosing it to be confidential or which ought reasonably to be considered confidential by the party receiving it;  
+* **"Confidential Information"** means any information which is either designated by the party disclosing it to be confidential or which ought reasonably to be considered confidential by the party receiving it;  
 * **"Consumer"** means an individual acting for purposes that are wholly or mainly outside of such individual's trade or profession;  
-* **"Customer"** means the legal entity that has accepted the terms of this Agreement by downloading and/or installing and/or using the Software, or — where an individual downloads and/or installs the Software for business use — that individual's employer (and the Supplier will assume that such individual has the authority to accept these terms on behalf of their employer);  
+* **"Customer"** means the legal entity that has accepted the terms of this Agreement by downloading and/or installing and/or using (or permitting the Authorised Users to download and/or install and/or use) the Software;  
 * **"Documentation"** means the documents made available to the Customer by the Supplier online via [https://studio3t.com/knowledge-base/](https://studio3t.com/knowledge-base/) or such other web address notified by the Supplier from time to time, describing the Software and providing user instructions;  
 * **"Intellectual Property Rights"** means patents, registered designs, registered trade and service marks, registered copyright and modifications to and applications for any of the foregoing and the right to apply for protection for such registered rights anywhere in the world, and inventions, discoveries, copyright, database rights, unregistered trade or service marks, brand names, know-how and any similar or equivalent rights whether capable of registration or not arising, applied for or granted under the laws of any country;  
 * **"Licence"** means the licence to use the Software and the Documentation granted to the Customer by the Supplier under clause 2 of this Agreement;  
@@ -33,7 +33,7 @@ This Agreement is intended for business and professional users only. The Custome
 * **"Software"** means 3T MCP (binary name: stt-cli), a single binary application that operates as a Model Context Protocol (MCP) server and command-line interface enabling AI assistants and agents to connect to MongoDB and MongoDB-compatible databases, distributed by the Supplier free of charge via [https://studio3t.com/mcp/releases](https://studio3t.com/mcp/releases), as further described in the Documentation;  
 * **"Supplier"** means 3T Software Labs Limited, registered in England and Wales under company number 10075999, whose registered office is at Newnham House, Cambridge Business Park, Cambridge, United Kingdom, CB4 0WZ;  
 * **"Third-Party Components"** means components owned by third parties which are incorporated in the Software;  
-* **"UK GDPR"** means Regulation 2016/679 of the European Parliament and of the Council on the protection of natural persons with regard to the processing of personal data and on the free movement of such data as it forms part of the law of England and Wales, Scotland and Northern Ireland by virtue of section 3 of the European Union (Withdrawal) Act 2018;  
+* **"UK GDPR"** means the UK GDPR as defined in section 3(10) of the Data Protection Act 2018, supplemented by section 205(4);;  
 * **"Viruses"** means anything or device (including any software, code, file or program) which may: prevent, impair or otherwise adversely affect the operation of any computer software, hardware or network, any telecommunications service, equipment or network or any other service or device; prevent, impair or otherwise adversely affect access to or the operation of any program or data, including the reliability of any program or data (whether by re-arranging, altering or erasing the program or data in whole or part or otherwise); or adversely affect the user experience, including worms, trojan horses, viruses and other similar things or devices;  
 * **"Working Day"** means Monday to Friday, excluding bank and public holidays in England.
 
@@ -53,7 +53,9 @@ This Agreement is intended for business and professional users only. The Custome
 
 **2.2.3** may make one copy of the Software in machine-readable form for normal operational security and back-up purposes; and
 
-**2.2.4** shall not commit any of the acts set out in clause 4 (Restrictions on Use).
+**2.2.4** shall comply with the restrictions set out in clause 4 (Restrictions on Use); and
+
+**2.2.5** shall ensure that the Authorised Users comply with these licence terms. 
 
 **2.3** The Licence is personal to the Customer. The Customer shall not assign, transfer or sublicense this Agreement or the Licence, or any rights arising under them, to any third party.
 
@@ -61,21 +63,15 @@ This Agreement is intended for business and professional users only. The Custome
 
 ## **3 Account Registration and Management**
 
-**3.1** Use of the Software requires each Authorised User to hold a valid Account. An Account may be created free of charge at https://license.studio3t.com/. By creating an Account, the Authorised User agrees to provide accurate, current and complete registration information and to maintain the accuracy of that information throughout the Licence Period.
+**3.1** Use of the Software requires each Authorised User to hold a valid user account (“**Account**”). An Account may be created free of charge at https://license.studio3t.com/. The Customer shall ensure that, when creating an Account, each Authorised User provides accurate, current and complete registration information and maintains the accuracy of that information throughout the Licence Period.
 
 **3.2** Authentication is performed once per session via browser-based sign-in. Authentication credentials are stored locally on the Authorised User's machine. The Customer is responsible for ensuring that each Authorised User keeps their Account credentials secure and confidential and does not share them with any other individual.
 
 **3.3** The Customer shall use all reasonable endeavours to prevent any unauthorised access to or use of any Account and shall promptly notify the Supplier at [support@studio3t.com](mailto:support@studio3t.com) if it becomes aware of any actual or suspected unauthorised access or use.
 
-**3.4** The Supplier may suspend or terminate an Account (and accordingly the Customer's right to use the Software) at any time.
+**3.4** The Supplier may at any time suspend or terminate one or more Accounts belonging to Authorised Users of the Customer .  The Supplier may, in its reasonable discretion, give prior notice to the registered email address associated with the Account before suspension or termination takes effect.
 
-**3.5** Where an Account is suspended or terminated by the Supplier under clause 3.4:
-
-* (a) the Supplier will, where reasonably practicable and not prohibited by law, give reasonable prior written notice to the registered email address associated with the Account before suspension or termination takes effect, save where the circumstances require immediate action;  
-* (b) the Licence shall immediately cease to be exercisable for so long as any suspension continues or, in the case of termination, shall terminate with immediate effect; and  
-* (c) resumption of the Licence following any suspension is at the Supplier's sole discretion.
-
-**3.6** The Customer may close an Account at any time by written notice to the Supplier or through the account management interface at [https://studio3t.com](https://studio3t.com). Closure of an Account by the Customer shall constitute termination of this Agreement by the Customer in accordance with clause 15.3.2.
+**3.5** An Authorised User may close their individual Account at any time by written notice to the Supplier or through the account management interface at [https://studio3t.com](https://studio3t.com).
 
 ---
 
@@ -138,20 +134,20 @@ This Agreement is intended for business and professional users only. The Custome
 
 ## **9 Data Processing and Privacy**
 
-**9.1** The Software operates entirely as a local process on the Customer's own infrastructure. The Software does not transmit to the Supplier or to any third party any of the following:
+**Authorised Users**
+
+**9.1** The Supplier processes personal data relating to the Authorised Users in connection with Account registration and authentication in accordance with the Supplier's privacy policy, which can be viewed at [https://studio3t.com/privacy-policy/](https://studio3t.com/privacy-policy/) (the "Privacy Policy"). The Customer is responsible for ensuring that Authorised Users are aware of the Privacy Policy.
+
+**9.2** The Software operates entirely as a local process on the Customer's own infrastructure. The Software does not transmit to the Supplier or to any third party any of the following:
 
 * (a) database content, query results, or schema information;  
 * (b) MongoDB connection strings, credentials, or configuration details;  
 * (c) PII scan results or any data analysed by the PII Scanning Feature; or  
 * (d) usage telemetry, crash reports, or analytics of any kind.
 
-**9.2** The Customer's MongoDB connection details are stored locally on the Authorised User's machine in a local configuration file (`~/.stt-mcp/connections.yaml`). The Supplier has no access to that file or to any MongoDB instance, database or data accessed through the Software. The Customer is solely responsible for the security of all connection credentials stored on its systems.
+**9.3** The Customer's MongoDB connection details are stored locally on the Authorised User's machine in a local configuration file (`~/.stt-mcp/connections.yaml`). The Supplier has no access to that file or to any MongoDB instance, database or data accessed through the Software. The Customer is solely responsible for the security of all connection credentials stored on its systems.
 
-**9.3** The Supplier processes personal data relating to the Customer and Authorised Users in connection with Account registration and authentication in accordance with the Supplier's privacy policy, which can be viewed at [https://studio3t.com/privacy-policy/](https://studio3t.com/privacy-policy/) (the "Privacy Policy"). The Customer is responsible for ensuring that Authorised Users are aware of the Privacy Policy.
-
-**9.4** The Customer remains the data controller for all personal and other data held in or accessible through any MongoDB instance connected to the Software. The Supplier is not a processor of any such data and has no access to, and no responsibility for, the content of any such MongoDB instance.
-
-**9.5** Where an Authorised User uses the PII Scanning Feature to scan data that the Customer processes as a data processor on behalf of a third-party controller, the Customer warrants that: (i) it has obtained all necessary authorisations from the relevant controller prior to conducting any such scan; (ii) the use of the PII Scanning Feature falls within the scope of the processing instructions given by that controller to the Customer; and (iii) the use of the PII Scanning Feature has been disclosed to the relevant controller to the extent required under applicable data protection law. The Supplier shall have no liability whatsoever in respect of any claim arising from the Customer's failure to comply with this clause 9.5, and the Customer shall indemnify, defend and hold harmless the Supplier and its officers, directors, employees and agents from and against any and all claims, liabilities, damages, losses, costs and expenses (including reasonable legal fees) arising out of or in connection with any such failure. 
+**9.4** The Customer is responsible for  all personal and other data held in or accessible through any MongoDB instance connected to the Software. The Supplier is not a processor of any such data and has no access to, and no responsibility for, the content of any such MongoDB instance.
 
 ---
 
@@ -163,12 +159,13 @@ This Agreement is intended for business and professional users only. The Custome
 
 **10.3** The Customer is solely responsible for:
 
-* (a) ensuring that its use of the PII Scanning Feature is lawful in the jurisdiction(s) in which it operates, including compliance with all applicable data protection and privacy laws and regulations (including, without limitation, the UK GDPR, the EU General Data Protection Regulation (Regulation 2016/679), the California Consumer Privacy Act, and any equivalent, successor or related legislation applicable in the Customer's jurisdiction);  
-* (b) determining whether it holds a lawful basis for scanning any personal data held in the MongoDB instances it connects to the Software;  
-* (c) all actions the Customer takes or fails to take in response to PII scan results, including any remediation, notification, reporting or other compliance obligations arising under applicable data protection law; and  
-* (d) ensuring that any Authorised User who uses the PII Scanning Feature is appropriately trained and authorised to do so within the Customer's organisation.
+* (a) ensuring that its use of the PII Scanning Feature is lawful in the jurisdiction(s) in which it operates and complies with all applicable data protection and privacy laws and regulations (including, without limitation, the UK GDPR, the EU General Data Protection Regulation (Regulation 2016/679), the California Consumer Privacy Act, and any equivalent, successor or related legislation applicable in the Customer's jurisdiction);  
+* (b) all actions the Customer takes or fails to take in response to PII scan results, including any remediation, notification, reporting or other compliance obligations arising under applicable data protection law; and  
+* (c) ensuring that any Authorised User who uses the PII Scanning Feature is appropriately trained and authorised to do so within the Customer's organisation.
 
 **10.4** The Supplier excludes all liability in connection with the Customer's use of the PII Scanning Feature and any reliance by the Customer on PII scan results, to the fullest extent permitted by applicable law.
+
+**9.5** The Supplier shall comply with all applicable data processing and privacy laws in connection with its use of the PII Scanning Feature. The Supplier shall have no liability whatsoever in respect of any claim arising from the Customer's failure to comply with this clause 9.5, and the Customer shall indemnify, defend and hold harmless the Supplier and its officers, directors, employees and agents from and against any and all claims, liabilities, damages, losses, costs and expenses (including reasonable legal fees) arising out of or in connection with any such failure. 
 
 ---
 
@@ -188,7 +185,7 @@ This Agreement is intended for business and professional users only. The Custome
 
 **12.2** Nothing in this Agreement transfers to the Customer any ownership of or title to any Intellectual Property Rights in the Software or Documentation. The Customer shall not take any action inconsistent with such ownership, and shall promptly notify the Supplier of any suspected or actual infringement of the Supplier's Intellectual Property Rights that comes to the Customer's attention.
 
-**12.3** The Supplier makes use of Third-Party Components in the Software. The full list of Third-Party Components can be found in the installation folder of the Software and in the GitHub repository. Third-Party Components are subject to their respective licence terms.
+**12.3** The Supplier makes use of Third-Party Components in the Software. The full list of Third-Party Components can be found in the installation folder of the Software and in the GitHub repository. The Customer shall, and shall ensure that the Authorised Users shall, comply with all licence terms applicable to the Third-Party Components.
 
 ---
 
@@ -206,16 +203,14 @@ This Agreement is intended for business and professional users only. The Custome
 
 ## **14 Limitation of Liability**
 
-**14.1** Nothing in this Agreement shall exclude or restrict the liability of either party to the other for:
+**14.1** **NOTHING IN THIS AGREEMENT SHALL EXCLUDE OR RESTRICT THE LIABILITY OF EITHER PARTY TO THE OTHER FOR:**
 
-* (a) death or personal injury resulting from the negligent act of one party; or  
-* (b) fraudulent misrepresentation.
+* **(A) DEATH OR PERSONAL INJURY RESULTING FROM THE NEGLIGENT ACT OF ONE PARTY; OR**  
+* **(B) FRAUDULENT MISREPRESENTATION; OR**
 
-**14.2 SUBJECT TO CLAUSE 14.1, THE SUPPLIER SHALL HAVE NO LIABILITY WHATSOEVER TO THE CUSTOMER IN RESPECT OF ANY LOSS OR DAMAGE ARISING IN CONTRACT, TORT (INCLUDING NEGLIGENCE), BREACH OF STATUTORY DUTY OR OTHERWISE OUT OF OR IN CONNECTION WITH: (A) THE CUSTOMER'S USE OF, OR INABILITY TO USE, THE SOFTWARE OR THE DOCUMENTATION; (B) ANY DATA, CONTENT OR INFORMATION OBTAINED OR PROCESSED BY OR THROUGH THE SOFTWARE, INCLUDING (WITHOUT LIMITATION) ANY PII SCAN RESULTS; OR (C) ANY THIRD-PARTY PRODUCTS, SERVICES OR PLATFORMS (INCLUDING AI CLIENTS AND MONGODB INSTANCES) USED IN CONJUNCTION WITH THE SOFTWARE.**
+* **(C) ANY LIABILITY THAT CANNOT BE LIMITED BY APPLICABLE LAW.**
 
-**14.3 SUBJECT TO CLAUSE 14.1, IN NO CIRCUMSTANCES SHALL THE SUPPLIER BE LIABLE TO THE CUSTOMER, WHETHER IN CONTRACT, TORT, NEGLIGENCE, BREACH OF STATUTORY DUTY OR OTHERWISE, IN RESPECT OF: (A) LOSS OF PROFITS, ANTICIPATED SAVINGS, REVENUE, GOODWILL OR BUSINESS OPPORTUNITY; (B) LOSS OR CORRUPTION OF DATA OR COST OF DATA RESTORATION; OR (C) ANY INDIRECT, CONSEQUENTIAL, FINANCIAL OR ECONOMIC LOSS OR DAMAGE, COSTS OR EXPENSES, HOWSOEVER ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT OR THE CUSTOMER'S USE OF THE SOFTWARE OR THE DOCUMENTATION.**
-
-**14.4 AS THE SOFTWARE IS PROVIDED FREE OF CHARGE, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, THE SUPPLIER'S TOTAL AGGREGATE LIABILITY TO THE CUSTOMER UNDER OR IN CONNECTION WITH THIS AGREEMENT, WHETHER ARISING FROM ONE CLAIM OR SERIES OF CLAIMS, SHALL NOT EXCEED £100 (ONE HUNDRED POUNDS STERLING) IN AGGREGATE ACROSS ALL CLAIMS COMBINED, REGARDLESS OF THE FORM OF ACTION OR THE BASIS OF THE CLAIM.**
+**14.2 NOTING THAT THE SOFTWARE IS PROVIDED FREE OF CHARGE, THE SUPPLIER SHALL (SUBJECT TO CLAUSE 14.1) HAVE NO LIABILITY WHATSOEVER TO THE CUSTOMER IN RESPECT OF ANY LOSS OR DAMAGE ARISING OUT OF OR IN CONNECITON WITH THIS AGREEMENT, WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE), BREACH OF STATUTORY DUTY OR OTHERWISE, INCLUDING (WITHOUT LIMITATION) IN CONNECTION WITH: (A) THE CUSTOMER'S USE OF, OR INABILITY TO USE, THE SOFTWARE OR THE DOCUMENTATION; (B) ANY DATA, CONTENT OR INFORMATION OBTAINED OR PROCESSED BY OR THROUGH THE SOFTWARE, INCLUDING (WITHOUT LIMITATION) ANY PII SCAN RESULTS; OR (C) ANY THIRD-PARTY PRODUCTS, SERVICES OR PLATFORMS (INCLUDING AI CLIENTS AND MONGODB INSTANCES) USED IN CONJUNCTION WITH THE SOFTWARE.**
 
 ---
 
@@ -223,23 +218,17 @@ This Agreement is intended for business and professional users only. The Custome
 
 **15.1** This Agreement commences on the Agreement Start Date and continues for the Licence Period unless terminated earlier in accordance with this clause.
 
-**15.2** This Agreement may be terminated immediately by either party if the other party commits a material or persistent breach of any term of this Agreement and that breach is: (a) not capable of remedy; or (b) if capable of remedy, is not remedied within 30 days of written notice being given requiring it to be remedied.
+**15.2** The Supplier may terminate this Agreement at any time  with immediate effect by providing written notice to the Customer.
 
-**15.3** Without prejudice to clause 15.2:
+**15.3** The Customer may terminate this Agreement at any time with immediate effect by uninstalling the Software and closing all Accounts held by its Authorised Users.
 
-**15.3.1** the Supplier may terminate this Agreement at any time, for any reason or no reason, with immediate effect by providing written notice to the Customer; and
-
-**15.3.2** the Customer may terminate this Agreement at any time with immediate effect by uninstalling the Software and closing all Accounts held by Authorised Users.
-
-**15.4** The Supplier may also suspend or terminate this Agreement and any associated Accounts immediately and without notice where required by law or regulation, or in the circumstances set out in clause 3.4.
-
-**15.5** Upon termination or expiry of this Agreement for any reason:
+**15.4** Upon termination or expiry of this Agreement for any reason:
 
 **15.5.1** the Licence and all rights granted under this Agreement shall immediately terminate;
 
 **15.5.2** the Customer shall promptly uninstall the Software and destroy all copies of the Software and the Documentation in its possession or control, in any form including partial copies; and
 
-**15.5.3** the following clauses shall survive termination and remain in full force: clauses 1, 4, 9, 10, 12, 13, 14, 15.5, 16 and 17\.
+**15.5.3** any provision of this Agreement which is expressly or by implication intended to survive termination of this Agreement shall survive and continue in full force and effect.
 
 **15.6** Any termination of this Agreement shall be without prejudice to any other rights or remedies either party may be entitled to under this Agreement or at law.
 
@@ -255,13 +244,11 @@ This Agreement is intended for business and professional users only. The Custome
 
 **16.1.3** through any failure to exercise due care and diligence, cause any unauthorised disclosure of,
 
-any trade secrets or Confidential Information relating to the other party, provided that these restrictions shall cease to apply to any information which shall become available to the public generally otherwise than through a breach of a duty of confidentiality owed to the other party. Neither party shall be restricted from disclosing Confidential Information pursuant to a judicial or other lawful government order, but only to the extent required by such order and subject to the party so required giving the other party as much notice as may be reasonably practicable.
+any trade secrets or Confidential Information belonging to the other party, provided that these restrictions shall cease to apply to the extent any information becomes available to the public generally otherwise than through a breach of a duty of confidentiality owed to the other party. Neither party shall be restricted from disclosing Confidential Information pursuant to a judicial or other lawful government order, but only to the extent required by such order and subject to the party so required giving the other party as much notice as may be reasonably practicable.
 
-**16.2** Nothing in this clause 16 shall prevent:
+**16.2** The parties acknowledge and agree that the Software (including without limitation, the Software source code) is the Confidential Information of the Supplier.  
 
-**16.2.1** the Supplier from disclosing the Software and the Documentation to any third party; or
-
-**16.2.2** the Customer from disclosing the Software and the Documentation to such of its Authorised Users, employees, sub-contractors and advisors as is necessary for the Customer to exercise its rights and comply with its obligations under this Agreement, provided that the Customer informs such parties of the confidential nature of the Confidential Information before disclosure and at all times remains responsible for such parties' compliance with the obligations of confidentiality set out in this Agreement.
+16.3 Nothing in this clause 16 shall prevent the Customer from disclosing the Software and the Documentation to such of its Authorised Users, employees, sub-contractors and advisors as is necessary for the Customer to exercise its rights and comply with its obligations under this Agreement, provided that the Customer informs such parties of the confidential nature of the Confidential Information before disclosure and at all times remains responsible for such parties' compliance with the obligations of confidentiality set out in this Agreement.
 
 ---
 

@@ -55,7 +55,7 @@ This Agreement is intended for business and professional users only. The Custome
 
 **2.2.4** shall comply with the restrictions set out in clause 4 (Restrictions on Use); and
 
-**2.2.5** shall ensure that the Authorised Users comply with these licence terms. 
+**2.2.5** shall ensure that the Authorised Users comply with these licence terms.
 
 **2.3** The Licence is personal to the Customer. The Customer shall not assign, transfer or sublicense this Agreement or the Licence, or any rights arising under them, to any third party.
 
@@ -63,7 +63,7 @@ This Agreement is intended for business and professional users only. The Custome
 
 ## **3 Account Registration and Management**
 
-**3.1** Use of the Software requires each Authorised User to hold a valid user account (“**Account**”). An Account may be created free of charge at https://license.studio3t.com/. The Customer shall ensure that, when creating an Account, each Authorised User provides accurate, current and complete registration information and maintains the accuracy of that information throughout the Licence Period.
+**3.1** Use of the Software requires each Authorised User to hold a valid user account ("**Account**"). An Account may be created free of charge at https://license.studio3t.com/. The Customer shall ensure that, when creating an Account, each Authorised User provides accurate, current and complete registration information and maintains the accuracy of that information throughout the Licence Period.
 
 **3.2** Authentication is performed once per session via browser-based sign-in. Authentication credentials are stored locally on the Authorised User's machine. The Customer is responsible for ensuring that each Authorised User keeps their Account credentials secure and confidential and does not share them with any other individual.
 

@@ -14,6 +14,17 @@ The MCP server runs locally on your machine as a standard [MCP](https://modelcon
 4. [Configure your AI client](#4-configure-your-ai-client)
 5. [Tool reference](#5-tool-reference)
 6. [Server flags](#6-server-flags)
+7. [Guides](#guides)
+
+## Guides
+
+Worked examples and deeper guides live in [`docs/`](docs/index.md):
+
+- [CLI reference](docs/cli-reference.md) — every command with real output
+- [Schema analysis](docs/analyze-schema.md) — infer a collection's structure
+- [PII scanning](docs/scan-pii.md) — find GDPR / PCI-DSS risk
+- [Workflows](docs/workflows.md) — end-to-end, multi-command examples
+- [Troubleshooting](docs/troubleshooting.md) — fix an error by its message
 
 ---
 

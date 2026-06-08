@@ -33,7 +33,7 @@ This Agreement is intended for business and professional users only. The Custome
 * **"Software"** means 3T MCP (binary name: stt-cli), a single binary application that operates as a Model Context Protocol (MCP) server and command-line interface enabling AI assistants and agents to connect to MongoDB and MongoDB-compatible databases, distributed by the Supplier free of charge via [https://studio3t.com/mcp/releases](https://studio3t.com/mcp/releases), as further described in the Documentation;  
 * **"Supplier"** means 3T Software Labs Limited, registered in England and Wales under company number 10075999, whose registered office is at Newnham House, Cambridge Business Park, Cambridge, United Kingdom, CB4 0WZ;  
 * **"Third-Party Components"** means components owned by third parties which are incorporated in the Software;  
-* **"UK GDPR"** means the UK GDPR as defined in section 3(10) of the Data Protection Act 2018, supplemented by section 205(4);;  
+* **"UK GDPR"** means the UK GDPR as defined in section 3(10) of the Data Protection Act 2018, supplemented by section 205(4);
 * **"Viruses"** means anything or device (including any software, code, file or program) which may: prevent, impair or otherwise adversely affect the operation of any computer software, hardware or network, any telecommunications service, equipment or network or any other service or device; prevent, impair or otherwise adversely affect access to or the operation of any program or data, including the reliability of any program or data (whether by re-arranging, altering or erasing the program or data in whole or part or otherwise); or adversely affect the user experience, including worms, trojan horses, viruses and other similar things or devices;  
 * **"Working Day"** means Monday to Friday, excluding bank and public holidays in England.
 
@@ -69,7 +69,7 @@ This Agreement is intended for business and professional users only. The Custome
 
 **3.3** The Customer shall use all reasonable endeavours to prevent any unauthorised access to or use of any Account and shall promptly notify the Supplier at [support@studio3t.com](mailto:support@studio3t.com) if it becomes aware of any actual or suspected unauthorised access or use.
 
-**3.4** The Supplier may at any time suspend or terminate one or more Accounts belonging to Authorised Users of the Customer .  The Supplier may, in its reasonable discretion, give prior notice to the registered email address associated with the Account before suspension or termination takes effect.
+**3.4** The Supplier may at any time suspend or terminate one or more Accounts belonging to Authorised Users of the Customer. The Supplier may, in its reasonable discretion, give prior notice to the registered email address associated with the Account before suspension or termination takes effect.
 
 **3.5** An Authorised User may close their individual Account at any time by written notice to the Supplier or through the account management interface at [https://studio3t.com](https://studio3t.com).
 
@@ -147,7 +147,7 @@ This Agreement is intended for business and professional users only. The Custome
 
 **9.3** The Customer's MongoDB connection details are stored locally on the Authorised User's machine in a local configuration file (`~/.stt-mcp/connections.yaml`). The Supplier has no access to that file or to any MongoDB instance, database or data accessed through the Software. The Customer is solely responsible for the security of all connection credentials stored on its systems.
 
-**9.4** The Customer is responsible for  all personal and other data held in or accessible through any MongoDB instance connected to the Software. The Supplier is not a processor of any such data and has no access to, and no responsibility for, the content of any such MongoDB instance.
+**9.4** The Customer is responsible for all personal and other data held in or accessible through any MongoDB instance connected to the Software. The Supplier is not a processor of any such data and has no access to, and no responsibility for, the content of any such MongoDB instance.
 
 ---
 
@@ -165,7 +165,7 @@ This Agreement is intended for business and professional users only. The Custome
 
 **10.4** The Supplier excludes all liability in connection with the Customer's use of the PII Scanning Feature and any reliance by the Customer on PII scan results, to the fullest extent permitted by applicable law.
 
-**9.5** The Supplier shall comply with all applicable data processing and privacy laws in connection with its use of the PII Scanning Feature. The Supplier shall have no liability whatsoever in respect of any claim arising from the Customer's failure to comply with this clause 9.5, and the Customer shall indemnify, defend and hold harmless the Supplier and its officers, directors, employees and agents from and against any and all claims, liabilities, damages, losses, costs and expenses (including reasonable legal fees) arising out of or in connection with any such failure. 
+**10.5** The Supplier shall comply with all applicable data processing and privacy laws in connection with its use of the PII Scanning Feature. The Supplier shall have no liability whatsoever in respect of any claim arising from the Customer's failure to comply with this clause 10.5, and the Customer shall indemnify, defend and hold harmless the Supplier and its officers, directors, employees and agents from and against any and all claims, liabilities, damages, losses, costs and expenses (including reasonable legal fees) arising out of or in connection with any such failure.
 
 ---
 
@@ -218,7 +218,7 @@ This Agreement is intended for business and professional users only. The Custome
 
 **15.1** This Agreement commences on the Agreement Start Date and continues for the Licence Period unless terminated earlier in accordance with this clause.
 
-**15.2** The Supplier may terminate this Agreement at any time  with immediate effect by providing written notice to the Customer.
+**15.2** The Supplier may terminate this Agreement at any time with immediate effect by providing written notice to the Customer.
 
 **15.3** The Customer may terminate this Agreement at any time with immediate effect by uninstalling the Software and closing all Accounts held by its Authorised Users.
 
@@ -248,7 +248,7 @@ any trade secrets or Confidential Information belonging to the other party, prov
 
 **16.2** The parties acknowledge and agree that the Software (including without limitation, the Software source code) is the Confidential Information of the Supplier.  
 
-16.3 Nothing in this clause 16 shall prevent the Customer from disclosing the Software and the Documentation to such of its Authorised Users, employees, sub-contractors and advisors as is necessary for the Customer to exercise its rights and comply with its obligations under this Agreement, provided that the Customer informs such parties of the confidential nature of the Confidential Information before disclosure and at all times remains responsible for such parties' compliance with the obligations of confidentiality set out in this Agreement.
+**16.3** Nothing in this clause 16 shall prevent the Customer from disclosing the Software and the Documentation to such of its Authorised Users, employees, sub-contractors and advisors as is necessary for the Customer to exercise its rights and comply with its obligations under this Agreement, provided that the Customer informs such parties of the confidential nature of the Confidential Information before disclosure and at all times remains responsible for such parties' compliance with the obligations of confidentiality set out in this Agreement.
 
 ---
 
